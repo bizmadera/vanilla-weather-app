@@ -12,14 +12,25 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/37d8eee4ff.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
       <h1>Nook Weather App</h1>
-      <div id="search-form">
-          Type a City | Search | Current Location
-      </div>
-      <div id="weather-app-top">
+      <form class="input-group form" id="search-form">
+        <input type="search" class="form-control" placeholder="Type a city..." autofocus="on" autocomplete="off" id="city-input">
+        <input class="btn btn-outline-secondary" value="search" type="submit"> </input>
+        <button class="btn btn-outline-secondary" type="button">
+            <i class="fa-solid fa-location-dot"></i>
+        </button>
+      </form>
+      <div class="weather-app-top">
+          <div>
+              <h1>
+                Mandaluyong City
+              </h1>
+              </br>
+          </div>
           <div class="row">
               <div class="col-4">
                   <span class="header">
@@ -37,9 +48,6 @@
                   </span>
               </div>
               <div class="col-4">
-                  <h1>
-                      City Name
-                  </h1>
                   <div id="main-weather-icon">
                       WEATHER ICON
                   </div>
@@ -51,6 +59,9 @@
                   <span>
                       °C | °F
                   </span>
+                </br>
+                </br>
+                </br>
                   <ul>
                       <li>
                           Humidity: 
@@ -65,7 +76,7 @@
               </div>
           </div>
       </div>
-      <div id="weather-app-bottom">
+      <div class="weather-app-bottom">
           NEXT FEW DAYS
       </div>
       <p>

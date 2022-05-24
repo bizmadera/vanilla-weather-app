@@ -1,3 +1,30 @@
-h1{
-    display: inline;
+p {
+    text-align: center;
+}
+.form{
+    padding: 30px 0px 30px 0px;
+}
+.weather-app-top{
+    background-color: #71BFEE;
+    border: 2px solid;
+    border-color: #71BFEE;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px 20px 0px 20px;
+    text-align: center;
+}
+.header{
+    font-size: 40px;
+}
+.subheader{
+    font-size: 18px;
+}
+
+
+.weather-app-bottom {
+    background-color: #EFEFED;
+    border: 2px solid;
+    border-color: #EFEFED;
+    border-radius: 0px 0px 100px 100px;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
 }
